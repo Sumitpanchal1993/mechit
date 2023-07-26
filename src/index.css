@@ -1,0 +1,13 @@
+:root {
+    --purple: #673de6;
+    --bgcol: #f5f5f5;
+    --mutetext:#727586;
+    --newred: #fc5185;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--bgcol);
+}

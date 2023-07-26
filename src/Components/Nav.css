@@ -1,12 +1,90 @@
-ul{
-    display: flex
+nav{
+    position: relative;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    min-height: 3.5rem;
+    transition: 2s ease;
 }
-li{
+
+nav img{
+    width: 4.5rem;
+}
+
+.menubtn{
+    display: none;
+    cursor: pointer;
+    transition: 5s ease-in;
+    position: absolute;
+    top: 1.3rem;
+    right: 1.5rem;
+    color: white;
+}
+
+.closebtn{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 1.3rem;
+    right: 1.5rem;
+    color: white;
+}
+
+.material-symbols-outlined{
+    font-size: 2.2rem;
+}
+
+nav .navMenu {
+    display: flex;
+}
+
+nav .navMenu ul{
+    display: flex;
     list-style: none;
 }
 
-a{
-    text-decoration: none;
-    color: green;    
+nav .navMenu ul li{
+ 
+    padding: 0.5rem  0;
+}
+nav .navMenu ul li:hover{
+    background: yellow;
+    border-radius: 3rem;
 }
 
+nav .navMenu ul a{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+/* Mobile View Css */
+
+@media screen and (max-width:768px) {
+    nav img{
+        width: 4.5rem;
+        position: absolute;
+        top:0.5rem;
+        left: 1rem;
+    }
+
+    .menubtn{
+        display: block;
+    }
+    .closebtn{
+        display: none;
+    }
+    nav .navMenu ul{
+        display: block;
+        margin-top: 3.8rem;
+    }
+
+    .navMenu{
+        display: none;
+        transition: 2s ease;
+    }
+}
