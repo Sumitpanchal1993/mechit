@@ -46,12 +46,12 @@ nav .navMenu ul{
 }
 
 nav .navMenu ul li{
- 
-    padding: 0.5rem  0;
+  
+    padding: 0.5rem  1rem;
+    margin: 0.5rem 0;
 }
 nav .navMenu ul li:hover{
-    background: yellow;
-    border-radius: 3rem;
+    border-radius: 1rem;
 }
 
 nav .navMenu ul a{
@@ -59,9 +59,11 @@ nav .navMenu ul a{
     display: flex;
     align-items: center;
     justify-content: start;
+    text-decoration: none;
 }
-
-
+nav .navMenu ul a span{
+    margin: 0 1rem;
+}
 /* Mobile View Css */
 
 @media screen and (max-width:768px) {
