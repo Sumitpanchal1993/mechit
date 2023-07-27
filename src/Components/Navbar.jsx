@@ -33,15 +33,11 @@ function Navbar() {
         </div>
 
 
-
-
-
-
         <div className='navMenu'>
           <ul>
             {menu.map((obj) => {
               return (
-                <li key={obj.id} onClick={close}><Link to={obj.link}>{obj.icon}{obj.title}</Link></li>
+                <li key={obj.id}><Link to={obj.link}>{obj.icon}{obj.title}</Link></li>
               )
             })}
           </ul>

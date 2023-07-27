@@ -1,0 +1,23 @@
+.togglemode{
+    position: fixed;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    border: 1px solid green;
+    border-radius: 1rem;
+    /* padding: 0.2rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.togglemode span{
+    margin: 0 0.2rem;
+    padding: 0 0.3rem;
+}
+
+
+.active{
+    background-color: purple;
+    color: white;
+    border-radius: 1rem;
+}

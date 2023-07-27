@@ -6,6 +6,7 @@ import Projects from './Assly/Projects'
 import Contact from './Assly/Contact'
 import Experience from './Assly/Experience';
 import Qualification from './Assly/Qualification';
+import Mode from './Components/Mode';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/experience' element={<Experience />}></Route>
           <Route path='/qualification' element={<Qualification />}></Route>
         </Routes>
+        <Mode/>
         </div>
       </Router>
     </>
