@@ -1,40 +1,41 @@
-nav{
+nav {
     position: relative;
     background-color: var(--teal);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-nav:hover{
-    box-shadow: 0 0 10px  orange ;    
+
+nav:hover {
+    box-shadow: 0 0 10px orange;
 }
 
 
-nav img{
+nav img {
     width: 4.5rem;
     margin-left: 1rem;
     margin-top: 0.4rem;
 }
 
-.menubtn{
-    display: none;   
-}
-
-.closebtn{
+.menubtn {
     display: none;
 }
 
-.material-symbols-outlined{
+.closebtn {
+    display: none;
+}
+
+.material-symbols-outlined {
     font-size: 2rem;
 }
 
 nav .navMenu {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
-nav .navMenu ul{
+nav .navMenu ul {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,17 +43,18 @@ nav .navMenu ul{
     margin: 0 1rem;
 }
 
-nav .navMenu ul li{  
+nav .navMenu ul li {
     padding: 0.2rem 0;
     margin: 0 0.4rem;
-    transition: all 250ms ease-in-out;
+    transition: all 0.5s ease-in-out;
     border-bottom: 2px solid var(--teal);
 }
-nav .navMenu ul li:hover{
+
+nav .navMenu ul li:hover {
     border-bottom: 2px solid var(--myorange);
 }
 
-nav .navMenu ul a{
+nav .navMenu ul a {
     color: white;
     display: flex;
     align-items: center;
@@ -61,27 +63,29 @@ nav .navMenu ul a{
     transition: all 250ms ease-in-out;
 }
 
-nav .navMenu ul a:hover{
+nav .navMenu ul a:hover {
     color: var(--myorange);
 }
-nav .navMenu ul a span{
+
+nav .navMenu ul a span {
     margin: 0 0.3rem;
 }
+
 /* Mobile View Css */
 
 @media screen and (max-width:768px) {
-    nav{
+    nav {
         min-height: 4.5rem;
     }
-    
-    nav img{
+
+    nav img {
         width: 4.5rem;
         position: absolute;
-        top:0.5rem;
+        top: 0.5rem;
         left: 1rem;
     }
 
-    .menubtn{
+    .menubtn {
         display: block;
         cursor: pointer;
         transition: 5s ease-in;
@@ -90,7 +94,8 @@ nav .navMenu ul a span{
         right: 1.5rem;
         color: white;
     }
-    .closebtn{
+
+    .closebtn {
         display: none;
         cursor: pointer;
         position: absolute;
@@ -98,27 +103,30 @@ nav .navMenu ul a span{
         right: 1.5rem;
         color: white;
     }
-    nav .navMenu{
-        display: flex; 
+
+    nav {
+        display: flex;
         align-items: center;
-        transition: all 1s ease;       
+        justify-content: center;
     }
-    .navMenu{
+
+    nav .navMenu {
         display: none;
+        align-items: center;
     }
-     nav .navMenu ul{
-        margin-top: 3.5rem ;
+
+    nav .navMenu ul {
+        margin-top: 3.5rem;
         display: block;
         list-style: none;
-        transition: all 1s ease;  
     }
-    
-    nav .navMenu ul li{  
-    padding: 0.5rem  1rem;
-    margin: 0.5rem 0;
-}
 
-    .navMenu{
+    nav .navMenu ul li {
+        padding: 0.5rem 1rem;
+        margin: 0.5rem 0;
+    }
+
+    .navMenu {
         display: none;
         transition: 2s ease;
     }

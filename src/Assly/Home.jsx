@@ -1,12 +1,50 @@
 import React from 'react'
 // import MyButton from '../Components/MyButton'
+import '../Assly/Home.css'
+import Poster from '../Media/Poster3.png'
+
+
 
 function Home() {
   return (
-    <div>
-    <h1>Welcome To Mech IT</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ducimus dolore modi? Debitis consequatur magnam maxime, fuga modi ipsum voluptas aut consectetur illo. Sed hic quos possimus soluta pariatur quas, neque repudiandae. Atque, distinctio minima. Officiis doloribus alias obcaecati, provident delectus, similique, assumenda molestias vel voluptatem quas dignissimos enim eligendi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod officiis quia perspiciatis corporis cum architecto vitae quisquam molestias quos ipsam excepturi quam, laudantium, voluptates eum recusandae cupiditate. Excepturi incidunt ullam reprehenderit voluptatem labore fuga ab nostrum maiores modi tempore molestias voluptate adipisci obcaecati sequi, magnam ratione doloremque neque ipsa, unde veritatis nisi. Explicabo nostrum ullam beatae facere, omnis libero itaque dolore porro pariatur tenetur perspiciatis minima eos, totam sequi. Quibusdam veritatis, expedita incidunt fugit molestiae quam possimus non commodi accusamus atque modi, nulla, architecto temporibus consectetur maiores magnam debitis placeat nam error! Tempora ipsum, pariatur numquam facilis eveniet distinctio nam. Saepe repudiandae minus repellendus facere suscipit temporibus, et consequatur itaque praesentium corrupti soluta. Eos quae veniam praesentium ea blanditiis repudiandae voluptatibus eius expedita voluptatum animi accusantium corporis, molestiae quasi minus sunt suscipit totam ducimus fugiat, cumque similique consectetur, consequatur dolor dicta nulla. Dolor cum ipsa veniam minus error illo sed quaerat labore nesciunt numquam? At in quas voluptas, tempora magni voluptates officia earum consequuntur. Architecto sed eligendi magnam totam ratione veniam, consequuntur voluptatem sunt optio cupiditate ea quis harum assumenda dolorem quam mollitia maiores, deleniti ab. Sunt, excepturi architecto similique cupiditate, quis laudantium deserunt maiores accusamus, tempore natus nemo exercitationem. Est aspernatur delectus ut quis minima voluptatum quod fugit odit consequuntur. Inventore quidem quasi dicta, possimus nam dolorum accusamus, suscipit placeat blanditiis quo quos officia? Facilis quam, necessitatibus libero quas sit sint veritatis delectus ipsa, illo aliquam animi illum molestias quis, neque esse deleniti eveniet dolore dolorem voluptate pariatur rerum. Officia ratione cumque ea aliquam sunt illum, fugit ipsa dignissimos asperiores doloribus, voluptatem rerum non eaque voluptatibus quia? Reiciendis sit, quis veritatis fugit aut, blanditiis impedit cum unde tenetur voluptate dolorem error aspernatur optio! Error adipisci at a cupiditate, dolore incidunt saepe commodi exercitationem reiciendis ipsum laboriosam velit! Quas, officia!</p>
-    </div>
+    <>
+      <div className="homecontainer">
+      <div className='title'>
+        <h1 >Hello Visitor's</h1>
+        <h1>Welcome to the folio Site of:</h1>
+        <h1 className='myHeading'>Sumit Panchal</h1>
+      </div>
+      
+
+      <div className='poster'>
+        <img src={Poster} alt="" />
+      </div>
+      <div className="skill">
+        <h1 className='myheading'>
+          Key Skills:
+        </h1>
+        <ul>
+          <li>React JS Application</li>
+          <li>Java Script </li>
+          <li>CSS (Cascade Style Sheet)</li>
+          <li>HTML5 (Hyper Text Markup Languages)</li>
+          <li>Redux Integration</li>
+          <li>Python</li>
+          <li>Node JS</li>
+        </ul>
+
+      </div>
+
+
+      <div>
+        <button>Know</button>
+      </div>
+      
+      
+      </div>
+
+
+    </>
   )
 }
 

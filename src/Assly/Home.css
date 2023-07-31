@@ -1,0 +1,22 @@
+@media screen and (max-width:768px) {
+    .homecontainer{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0.5rem;
+        color: white;
+    }
+
+    .myHeading {
+        font-family: lobster;
+        color: white;  
+        font-size: 3rem;     
+    }
+
+    .poster img{
+        z-index: -10;
+        width: 50%;
+        position: absolute;
+        top: 15rem;
+        right: 1rem;     
+    }
+}
