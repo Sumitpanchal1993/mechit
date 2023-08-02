@@ -14,5 +14,5 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #113b3a;
+    background-color:var(--darkblue);
 }

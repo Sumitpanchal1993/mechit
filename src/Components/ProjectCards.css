@@ -1,0 +1,35 @@
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px grey ;
+    transition: all 0.5s ease;
+    width: 15rem;
+}
+
+.card_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardBody:hover{
+    box-shadow: 0 0 10px white ;  
+}
+
+.cardBody div img{
+    
+}
+
+div.cardBody img{
+    width: 8rem;
+    
+}
+
+
+@media screen and (max-width:768px) {
+
+    
+}

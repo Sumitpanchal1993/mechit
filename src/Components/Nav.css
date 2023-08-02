@@ -1,6 +1,7 @@
 nav {
     position: relative;
-    background-color: var(--teal);
+    /* background-color: var(--teal); */
+    background: #00000079;
     display: flex;
     align-items: center;
     justify-content: space-between;

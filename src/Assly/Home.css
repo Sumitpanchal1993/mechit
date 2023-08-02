@@ -1,3 +1,25 @@
+/* Desktop View code */
+.homecontainer{
+    color: white;
+    padding: 2rem;
+}
+.title{
+    color: white;
+}
+
+.poster img{
+    z-index: -10;
+    width: 20rem;
+    position: absolute;
+    top: 8rem;
+    right: 3rem;     
+}
+
+
+
+
+
+
 @media screen and (max-width:768px) {
     .homecontainer{
         display: flex;
@@ -20,3 +42,8 @@
         right: 1rem;     
     }
 }
+
+
+
+
+

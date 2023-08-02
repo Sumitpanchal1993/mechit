@@ -1,0 +1,32 @@
+div.project{
+    background-image: url(../Media/ProjectBg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.project_list{ 
+    background-color: #00000060;
+    color: white;  
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:768px) {
+    div.project{
+        background-size: cover;
+        
+      
+    }
+    
+    
+    div.project_list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+}

@@ -1,10 +1,21 @@
 import React from 'react'
-
+import '../Assly/Project.css'
+import ProjectCard from '../Components/ProjectCards'
 function Projects() {
   return (
-    <div>
-      This is Project page
+    <>
+    <div className="project">
+      <div className="project_list">
+      <ProjectCard/>
+      <ProjectCard/>
+      <ProjectCard/>
+      <ProjectCard/>
+      <ProjectCard/>
+      <ProjectCard/>
+      </div>
     </div>
+      
+    </>
   )
 }
 

@@ -11,7 +11,7 @@ function Home() {
       <div className="homecontainer">
       <div className='title'>
         <h1 >Hello Visitor's</h1>
-        <h1>Welcome to the folio Site of:</h1>
+        <h1>Welcome to the Website of:</h1>
         <h1 className='myHeading'>Sumit Panchal</h1>
       </div>
       
