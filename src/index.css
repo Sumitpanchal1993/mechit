@@ -13,6 +13,9 @@
     font-family: sans-serif  ;
     box-sizing: border-box;
 }
+
 body{
-    background-color:var(--darkblue);
+    background-image: url(https://www.wallpaperflare.com/static/87/981/130/space-planet-universe-galaxy-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }

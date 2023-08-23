@@ -1,18 +1,22 @@
 /* Desktop View code */
-.homecontainer{
+.homecontainer{ 
+  
     color: white;
-    padding: 2rem;
+    padding: 3rem;
+    height: 100vh;
+   
+
 }
 .title{
     color: white;
 }
 
 .poster img{
-    z-index: -10;
-    width: 20rem;
+    z-index: 10;
+    width: 10rem;
     position: absolute;
     top: 8rem;
-    right: 3rem;     
+    right: 5rem;    
 }
 
 
@@ -35,8 +39,8 @@
     }
 
     .poster img{
-        z-index: -10;
-        width: 50%;
+        z-index: 10;
+        width: 40%;
         position: absolute;
         top: 15rem;
         right: 1rem;     
