@@ -28,5 +28,11 @@ export const menu =[
         title: 'Contact Me',
         link: '/contact',
         icon: <span className="material-symbols-outlined">contact_mail</span>
+    },
+    {
+        id: 5,
+        title: 'Hire Me !!',
+        link: '/contact',
+        icon: <span className="material-symbols-outlined">badge</span>
     }
 ]

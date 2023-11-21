@@ -15,7 +15,9 @@
 }
 
 body{
-    background-image: url(https://www.wallpaperflare.com/static/87/981/130/space-planet-universe-galaxy-wallpaper.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+ background: lightgray;
 }
+
+/* div{
+    border: 1px solid black;
+} */

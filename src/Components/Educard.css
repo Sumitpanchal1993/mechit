@@ -1,0 +1,60 @@
+.edu_base {
+    width: 18rem;
+    height: 22rem;
+    padding: 1rem;
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px blue;
+    margin: 1rem;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.prog_OD {
+    width: 8rem;
+    height: 8rem;
+    /* background: green; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 6px green;
+    background: conic-gradient(red 15deg, purple 0deg);
+}
+
+.prog_ID {
+    width: 5rem;
+    height: 5rem;
+    background: white;
+    box-shadow: 0 0 6px yellow inset;
+    /* position: absolute; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prog_data {
+    z-index: 10;
+    position: absolute;
+    font-size: 2rem;
+    font-family: roboto;
+}
+
+.edu_class {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

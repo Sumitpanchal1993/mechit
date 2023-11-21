@@ -1,22 +1,15 @@
 /* Desktop View code */
 .homecontainer{ 
-  
-    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     padding: 3rem;
     height: 100vh;
-   
-
-}
-.title{
-    color: white;
+    width: 100%;
 }
 
 .poster img{
-    z-index: 10;
-    width: 10rem;
-    position: absolute;
-    top: 8rem;
-    right: 5rem;    
+    width: 30rem;
 }
 
 
@@ -28,13 +21,11 @@
     .homecontainer{
         display: flex;
         flex-direction: column;
-        padding: 1rem 0.5rem;
-        color: white;
+        padding: 1rem 0.5rem;       
     }
 
     .myHeading {
         font-family: lobster;
-        color: white;  
         font-size: 3rem;     
     }
 
@@ -46,8 +37,3 @@
         right: 1rem;     
     }
 }
-
-
-
-
-

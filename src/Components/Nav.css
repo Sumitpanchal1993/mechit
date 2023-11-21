@@ -1,19 +1,15 @@
 nav {
     position: sticky;
     top: 0;
-    background: rgba(0, 0, 0, 0.219);   
+    background: rgba(0, 0, 0, 0.5);   
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-nav:hover {
-    box-shadow: 0 0 10px orange;
-}
-
 
 nav img {
-    width: 4.5rem;
+    width: 3.5rem;
     margin-left: 1rem;
     margin-top: 0.4rem;
 }
@@ -26,33 +22,22 @@ nav img {
     display: none;
 }
 
-.material-symbols-outlined {
-    font-size: 2rem;
-}
-
-nav .navMenu {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
 nav .navMenu ul {
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
     margin: 0 1rem;
+    gap: 1rem;
+    transition: all 0.5s ease-in-out;
 }
 
 nav .navMenu ul li {
-    padding: 0.2rem 0;
-    margin: 0 0.4rem;
     transition: all 0.5s ease-in-out;
-    border-bottom: 2px solid var(--teal);
 }
 
 nav .navMenu ul li:hover {
-    border-bottom: 2px solid var(--myorange);
+    color: var(--myorange);
 }
 
 nav .navMenu ul a {
@@ -94,6 +79,7 @@ nav .navMenu ul a span {
         top: 1rem;
         right: 1.5rem;
         color: white;
+
     }
 
     .closebtn {
@@ -125,6 +111,7 @@ nav .navMenu ul a span {
     nav .navMenu ul li {
         padding: 0.5rem 1rem;
         margin: 0.5rem 0;
+        border: none;
     }
 
     .navMenu {
