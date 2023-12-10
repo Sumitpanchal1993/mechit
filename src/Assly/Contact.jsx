@@ -4,21 +4,28 @@ import './Contact.css'
 function Contact() {
   return (
     <div className='cont_base'>
-      <div>
-        Contact Me!!!
+      <div className='cont_head'>
+        <p>
+          😊Contact Me!!!😊
+        </p>
+
       </div>
-      <div>
-        Mobile No.: 8349102532, 7828314018
+      <div className='cont_data'>
+        {/* <span class="material-symbols-outlined">phone_iphone</span> */}
+        <p>
+          👉Mobile No.: <a href="tel:8349102532">+91 8349102532</a>
+        </p>
+        <p>👉Alt. Mobile: <a href="tel:8349102532">+91 7828314018</a></p>
       </div>
-      <div>
-        Email ID: sumitpanchal08@gmail.com, sumitpanchal990@gmail.com
+      <div className='cont_data'>
+        {/* <span class="material-symbols-outlined">mail</span> */}
+        <p>👉Email ID: <a href="mailto: sumitpanchal08@gmail.com ">sumitpanchal08@gmail.com </a></p>
+        <p>👉Alternate Email:<a href="mailto: sumitpanchal990@gmail.com ">sumitpanchal990@gmail.com </a> </p>
       </div>
-      <div>
-        Social Network: facebook, instagram
-      </div>
-      <div>
-        Technical Sites: Github, Replit
-      </div>
+
+      <a href="Resume Sumit Panchal.pdf" download={'Resume Sumit.pdf'}>
+        <button>Download Resume</button>
+      </a>
     </div>
   )
 }
