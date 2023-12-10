@@ -1,39 +1,83 @@
 /* Desktop View code */
-.homecontainer{ 
+
+.myHeading {
+    font-size: 100px;
+    font-weight: 600;
+}
+
+
+.myBio {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.homecontainer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 3rem;
-    height: 100vh;
+    padding: 1rem;
     width: 100%;
 }
 
-.poster img{
+.poster img {
     width: 30rem;
 }
 
+.exp_btn {
+    margin: 1rem 0;
+    position: relative;
+}
 
+.explore_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: blueviolet;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    position: absolute;
+    top: 0;
+    left: 12rem;
+    display: none;
+}
 
+.explore_menu>a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem;
+}
 
 
 
 @media screen and (max-width:768px) {
-    .homecontainer{
+    .homecontainer {
         display: flex;
-        flex-direction: column;
-        padding: 1rem 0.5rem;       
+        flex-direction: column-reverse;
+        padding: 1rem 0.5rem;
+    }
+
+    .home_lhs {
+        margin-left: 1rem;
     }
 
     .myHeading {
-        font-family: lobster;
-        font-size: 3rem;     
+        /* font-family: lobster; */
+        font-size: 5rem;
     }
 
-    .poster img{
-        z-index: 10;
-        width: 40%;
-        position: absolute;
-        top: 15rem;
-        right: 1rem;     
+    .title {
+        display: flex;
+        flex-direction: column;
+        /* gap: 0.5rem; */
+
+    }
+
+    .poster img {
+        /* z-index: 10; */
+        width: 100%;
+        /* position: absolute; */
+        /* top: 10rem; */
+        /* right: 1rem; */
     }
 }

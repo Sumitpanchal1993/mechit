@@ -15,7 +15,7 @@ function Educard(props) {
                 clearInterval(progress)
             }
             (progVal.textContent = progStart + '%')
-            progOD.style.background = `conic-gradient(red ${(360 / 100 * progStart)}deg, purple 0deg) `
+            progOD.style.background = `conic-gradient(teal ${(360 / 100 * progStart)}deg, grey 0deg) `
 
         }, progSpeed)
     })
@@ -27,7 +27,7 @@ function Educard(props) {
                 <div className="progress">
                     <div className='prog_OD'>
                         <div className='prog_ID'>
-                            <div className='prog_data'>{props.percent}</div>
+                            <div className='prog_data'>{props.percent}%</div>
 
                         </div>
                     </div>
@@ -42,6 +42,9 @@ function Educard(props) {
                     <div><p><b>Percentage</b> {props.percent}</p></div>
                     <div><p><b>Passing Year:</b> {props.year}</p></div>
 
+                </div>
+                <div>
+                    <button>Know More</button>
                 </div>
             </div>
         </>

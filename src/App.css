@@ -1,0 +1,15 @@
+button {
+    border: none;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background: chocolate;
+    margin: 0.5rem;
+
+
+}
+
+button:hover {
+    background: goldenrod;
+}

@@ -1,16 +1,16 @@
 .edu_base {
     width: 18rem;
-    height: 22rem;
+    min-height: 25rem;
     padding: 1rem;
-    border: 2px solid green;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: column;
     border-radius: 1.5rem;
     box-sizing: border-box;
-    box-shadow: 0 0 10px blue;
+    box-shadow: 0 0 10px purple;
     margin: 1rem;
+    background: lightgray;
 }
 
 .progress {
@@ -23,22 +23,22 @@
 }
 
 .prog_OD {
-    width: 8rem;
-    height: 8rem;
+    width: 10rem;
+    height: 10rem;
     /* background: green; */
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 0 6px green;
-    background: conic-gradient(red 15deg, purple 0deg);
+    background: conic-gradient(Teal 15deg, grey 0deg);
 }
 
 .prog_ID {
-    width: 5rem;
-    height: 5rem;
+    width: 7rem;
+    height: 7rem;
     background: white;
-    box-shadow: 0 0 6px yellow inset;
+    box-shadow: 0 0 8px rgb(95, 7, 41) inset;
     /* position: absolute; */
     border-radius: 50%;
     display: flex;
@@ -57,4 +57,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.edu_detail {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }

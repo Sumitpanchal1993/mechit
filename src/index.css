@@ -1,23 +1,25 @@
 :root {
     --purple: #673de6;
     --bgcol: #e5e5e5;
-    --mutetext:#727586;
+    --mutetext: #727586;
     --newred: #fc5185;
     --myorange: #FCA311;
     --teal: #218380;
-    --darkblue:#14213d;
-  }
-*{
+    --darkblue: #14213d;
+}
+
+* {
     margin: 0;
     padding: 0;
-    font-family: sans-serif  ;
+    font-family: sans-serif;
     box-sizing: border-box;
 }
 
-body{
- background: lightgray;
+body {
+    background-image: linear-gradient(90deg, #00006d, #630163);
+    color: white;
 }
 
-/* div{
+/* div {
     border: 1px solid black;
 } */
