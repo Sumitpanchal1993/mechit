@@ -1,6 +1,6 @@
 .edu_base {
-    width: 18rem;
-    min-height: 25rem;
+    width: 22rem;
+    height: 32rem;
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -8,9 +8,9 @@
     flex-direction: column;
     border-radius: 1.5rem;
     box-sizing: border-box;
-    box-shadow: 0 0 10px purple;
+    box-shadow: 3px 5px 10px grey;
     margin: 1rem;
-    background: lightgray;
+    background: rgba(0, 0, 0, 0.3)
 }
 
 .progress {
@@ -25,21 +25,19 @@
 .prog_OD {
     width: 10rem;
     height: 10rem;
-    /* background: green; */
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 6px green;
-    background: conic-gradient(Teal 15deg, grey 0deg);
+    box-shadow: 0 0 8px 3px white;
+    background: conic-gradient(red 50deg, green 0deg);
 }
 
 .prog_ID {
     width: 7rem;
     height: 7rem;
-    background: white;
-    box-shadow: 0 0 8px rgb(95, 7, 41) inset;
-    /* position: absolute; */
+    background: black;
+    box-shadow: 0 0 8px yellowgreen inset;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -49,15 +47,18 @@
 .prog_data {
     z-index: 10;
     position: absolute;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: roboto;
 }
 
-.edu_class {
+.course_name {
+    text-align: center;
+}
+
+.name_detail{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
 .edu_detail {

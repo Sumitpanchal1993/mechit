@@ -1,10 +1,13 @@
 import React from 'react'
+import ExperienceCard from '../Components/ExperienceCard'
+
 
 function Experience() {
   return (
-    <div>
-      my Experience
-    </div>
+    <>
+    <ExperienceCard/>
+
+    </>
   )
 }
 
