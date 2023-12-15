@@ -1,36 +1,12 @@
 import React, { useEffect } from "react";
 import "./Educard.css";
+import ProgressDonut from './ProgressDonut'
 
 function Educard(props) {
-//   useEffect(() => {
-//     let progOD = document.querySelector(".prog_OD");
-//     let progVal = document.querySelector(".prog_data");
-//     let progStart = 0.0;
-//     let progEnd = 80;
-//     let progSpeed = 50;
-//     let progress = setInterval(() => {
-//       progStart++;
-//       if (progStart == progEnd) {
-//         clearInterval(progress);
-//       }
-//       progVal.textContent = progStart + "%";
-//       progOD.style.background = `conic-gradient(red ${
-//         (360 / 100) * progStart
-//       }deg, green 0deg) `;
-//     }, progSpeed);
-//   });
-
   return (
     <>
       <div className="edu_base">
-            <div className="progress">
-                <div className="prog_OD">
-                    <div className="prog_ID">
-                        <div className="prog_data">{props.percent}%</div>
-                    </div>
-                </div>
-                <h5>Percentage</h5>
-            </div>
+            <ProgressDonut percent={props.percent}/>
     
             <div className="edu_detail">
                 <div className="course_name">
@@ -59,7 +35,9 @@ function Educard(props) {
                
             </div>
             <div>
+            <a href={props.link}>
             <button>Know More</button>
+            </a>
             </div>
       </div>
     </>

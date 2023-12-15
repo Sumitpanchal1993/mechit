@@ -5,13 +5,10 @@ function Projects() {
   return (
     <>
     <div className="project">
+      <h1>Stay On Page Will be Updated Soon</h1>
       <div className="project_list">
       <ProjectCard/>
-      <ProjectCard/>
-      <ProjectCard/>
-      <ProjectCard/>
-      <ProjectCard/>
-      <ProjectCard/>
+   
       </div>
     </div>
       
