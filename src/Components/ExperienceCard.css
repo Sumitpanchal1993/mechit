@@ -1,5 +1,15 @@
 .exp_card{
   box-sizing: border-box;
-  box-shadow: 0 0 10px greenyellow;
-  width: min-content;
+  box-shadow: 0 0 10px white; 
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 2rem;
+}
+
+.title{
+  margin: 0.5rem;
+}
+
+.comp_detail{
+  margin: 1rem 0;
 }

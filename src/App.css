@@ -1,15 +1,40 @@
+
+/* Button Css */
 button {
+    border-radius: 2rem;
+    background-color: #8b550e;
     border: none;
-    padding: 0.8rem;
-    border-radius: 1rem;
+    color: #FFFFFF;
+    text-align: center;
     font-size: 1rem;
-    font-weight: bold;
-    background: chocolate;
-    margin: 0.5rem;
-
-
-}
-
-button:hover {
-    background: goldenrod;
-}
+    padding: 0.5rem;
+    min-width: 8rem;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+ button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover span {
+    padding-right: 25px;
+  }
+  
+ button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

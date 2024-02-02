@@ -5,8 +5,7 @@ import ExperienceCard from '../Components/ExperienceCard'
 function Experience() {
   return (
     <>
-    <ExperienceCard/>
-
+      <ExperienceCard/>
     </>
   )
 }
