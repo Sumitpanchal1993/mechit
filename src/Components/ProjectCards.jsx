@@ -10,7 +10,7 @@ function Cards(props) {
           <img src={Logo} alt="Logo" />
         </div>
         <div>
-          <h1>{props.data.title}</h1>
+          <h2>{props.data.title}</h2>
         </div>
         <div>
           <h4>Project Detail:</h4>
@@ -20,22 +20,17 @@ function Cards(props) {
         </div>
         <div>
           <h4>Technologies Used:</h4>
-          <ul>
+          <ul className="list">
             {props.data.tech.map((item) => {
               return <li>{item}</li>;
             })}
           </ul>
         </div>
         <div>
-          <h4>Project Link:</h4>
-          <a href="" target="_blank">
-            {props.data.link}
-          </a>
-        </div>
-        <div>
           <button className="viewbtn">
-            {/* <span className="material-symbols-outlined">visibility</span> */}
-            <span>View</span>
+            <a href={props.data.link} target="_blank">
+              <span>View</span>
+            </a>
           </button>
         </div>
       </div>

@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --purple: #673de6;
     --bgcol: #e5e5e5;
     --mutetext: #727586;
@@ -6,20 +6,21 @@
     --myorange: #FCA311;
     --teal: #218380;
     --darkblue: #14213d;
-}
+} */
 
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: sans-serif, Arial, Helvetica;
     box-sizing: border-box;
 }
 
 body {
-    background-image: linear-gradient(90deg, #00006d, #630163);
-    color: white;
+    height: 100vh;
+    /* background-image: linear-gradient(45deg,  #00006d, #630163); */
+    background-image: url(../src/Media/BG_Univ.avif);
+    color: white; 
+    background-size: cover;
+    background-position: center;
 }
 
-/* div {
-    border: 1px solid black;
-} */

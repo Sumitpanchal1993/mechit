@@ -1,13 +1,15 @@
 .cardBody{
     display: flex;
     flex-direction: column;
-    border: 2px solid green;
-    padding: 1rem;
+    gap: 0.7rem;
+    padding: 1.5rem;
     margin: 1rem;
     border-radius: 1rem;
     box-shadow: 0 0 5px grey ;
     transition: all 0.5s ease;
     width: 15rem;
+    min-width: 18rem;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .card_logo{
@@ -32,4 +34,12 @@ div.cardBody img{
 @media screen and (max-width:768px) {
 
     
+}
+
+.cardBody ul{
+    list-style:circle;
+    list-style-position: inside;
+}
+.viewbtn a > span{
+ color: white;
 }
