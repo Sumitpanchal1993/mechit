@@ -9,9 +9,9 @@
   font-weight: 600;
   background-clip: text;
   color: transparent;
-  background-image:linear-gradient(orange, yellow);
-  /* background-size: contain; */
-  /* background-position: center; */
+  background-image:linear-gradient(orange, rgb(0, 255, 170));
+  background-position: center;
+  background-size: cover;
   animation: nameanimation 5s ease infinite;
 }
 
@@ -41,10 +41,22 @@
   justify-content: space-around;
   padding: 1rem;
   width: 100%;
+  height: 100%;
+  position: relative;
+}
+.home_lhs{
+  float: left;
 }
 
+.poster{
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+
+}
 .poster img {
-  width: 30rem;
+  height: 560px;
+  filter: contrast(120%) brightness(105%);
 }
 
 .exp_btn {
@@ -79,9 +91,13 @@
     padding: 1rem 0.5rem;
   }
 
-  .home_lhs {
+
+
+  .home_rhs {
     margin-left: 1rem;
   }
+
+
 
   .myHeading {
     /* font-family: lobster; */

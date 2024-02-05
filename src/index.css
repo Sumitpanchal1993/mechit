@@ -18,9 +18,12 @@
 body {
     height: 100vh;
     /* background-image: linear-gradient(45deg,  #00006d, #630163); */
-    background-image: url(../src/Media/BG_Univ.avif);
+    background-image: url(../src/Media/BG_Univ.jpg);
     color: white; 
     background-size: cover;
     background-position: center;
 }
 
+#root{
+    background: rgba(0, 0, 0, 0.5);
+}
