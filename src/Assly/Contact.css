@@ -1,8 +1,9 @@
 .cont_base {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:flex-start;
     flex-direction: column;
+    height: 100vh;
 }
 
 .cont_head >p{

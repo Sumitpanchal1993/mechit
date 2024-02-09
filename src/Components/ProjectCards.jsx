@@ -21,8 +21,8 @@ function Cards(props) {
         <div>
           <h4>Technologies Used:</h4>
           <ul className="list">
-            {props.data.tech.map((item) => {
-              return <li>{item}</li>;
+            {props.data.tech.map((item, index) => {
+              return <li key={index}>{item}</li>;
             })}
           </ul>
         </div>

@@ -1,38 +1,48 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
+import "./ProgressDonut.css";
 
 function ProgressDonut(props) {
-    useEffect(() => {
-        let progOD = document.querySelector(".prog_OD");
-        let progVal = document.querySelector(".prog_data");
-        let progStart = 0;
-        let progEnd = Math.round(props.percent);
-        let progSpeed = 50;
-        console.log(progEnd)
-        let progress = setInterval(() => {
-          progStart++;
-          if (progStart == progEnd) {
-            clearInterval(progress);
-          }
-          progVal.textContent = progStart + "%";
-          progOD.style.background = `conic-gradient(red ${
-            (360 / 100) * progStart
-          }deg, green 0deg) `;
-        }, progSpeed);
-      });
+  const progODRef = useRef(null);
+  const progValRef = useRef(null);
+
+  useEffect(() => {
+    const progOD = progODRef.current;
+    const progVal = progValRef.current;
+
+    let progStart = 0;
+    let progEnd = Math.round(props.percent);
+    let progSpeed = 50;
+
+    let progress = setInterval(() => {
+      progStart++;
+      if (progStart === progEnd) {
+        clearInterval(progress);
+      }
+      progVal.textContent = progStart + "%";
+      progOD.style.background = `conic-gradient(rgb(23, 182, 161) ${
+        (360 / 100) * progStart
+      }deg, rgb(211, 132, 14) 0deg)`;
+    }, progSpeed);
+
+    return () => {
+      clearInterval(progress);
+    };
+  }, [props.percent]);
 
   return (
     <>
-    <div className="progress">
-                <div className="prog_OD">
-                    <div className="prog_ID">
-                        <div className="prog_data">{props.percent}%</div>
-                    </div>
-                </div>
-                <h5>Percentage</h5>
+      <div className="progress">
+        <div className="prog_OD" ref={progODRef}>
+          <div className="prog_ID">
+            <div className="prog_data" ref={progValRef}>
+              {props.percent}%
             </div>
-      
+          </div>
+        </div>
+        <h5>Percentage</h5>
+      </div>
     </>
-  )
+  );
 }
 
-export default ProgressDonut
+export default ProgressDonut;
