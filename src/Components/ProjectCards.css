@@ -7,9 +7,13 @@
     border-radius: 1rem;
     box-shadow: 0 0 5px grey ;
     transition: all 0.5s ease;
-    width: 15rem;
-    min-width: 18rem;
+    min-width: 15rem;
+    max-width: 18rem;
+    max-height: 30rem;
+    min-height: 30rem;
+    overflow: hidden;
     background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
 }
 
 .card_logo{
@@ -18,7 +22,7 @@
     justify-content: center;
 }
 .cardBody:hover{
-    box-shadow: 0 0 10px white ;  
+    box-shadow: 0 0 5px 2px  white ;  
 }
 
 .cardBody div img{
@@ -26,8 +30,14 @@
 }
 
 div.cardBody img{
-    width: 8rem;
+    width: 6rem;
     
+}
+
+.cardBody button{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
 }
 
 

@@ -12,9 +12,9 @@ function Cards(props) {
         <div>
           <h2>{props.data.title}</h2>
         </div>
-        <div>
+        {/* <div>
           <h4>Project Detail:</h4>
-        </div>
+        </div> */}
         <div>
           <p>{props.data.detail}</p>
         </div>

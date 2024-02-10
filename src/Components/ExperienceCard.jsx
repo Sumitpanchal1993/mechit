@@ -5,20 +5,15 @@ import exp_detail from "../Static Data/Exp";
 
 // console.log(exp_detail[0])
 
-function ExperienceCard() {
+function ExperienceCard(props) {
   return (
     <>
       <div className="exp_card">
         <div className="title">
-          <h1>Techium Infotech Pvt. Ltd. </h1>
+          <h1>{props.companyName}</h1>
         </div>
         <div className="comp_detail">
-          <p>
-            Techium InfoTech is a leading software company providing the
-            services of E-Commerce Development, Custom Web Development, Software
-            Maintenance, Software Enhancement, Software Testing and various IT
-            related supports and solution provider
-          </p>
+          <p>{props.companyDetail}</p>
         </div>
         <div className="joining">
           <h3>From : July 2021 till Date</h3>
