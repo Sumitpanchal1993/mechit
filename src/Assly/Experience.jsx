@@ -11,6 +11,7 @@ function Experience() {
             <ExperienceCard
               companyName={item.comp_name}
               companyDetail={item.about}
+              companyJoin={item.join}
             />
           );
         })}

@@ -6,6 +6,7 @@ import exp_detail from "../Static Data/Exp";
 // console.log(exp_detail[0])
 
 function ExperienceCard(props) {
+  console.log(props.companyJoin);
   return (
     <>
       <div className="exp_card">
@@ -16,7 +17,7 @@ function ExperienceCard(props) {
           <p>{props.companyDetail}</p>
         </div>
         <div className="joining">
-          <h3>From : July 2021 till Date</h3>
+          <h3>From :{toString(props.companyJoin)}till Date</h3>
         </div>
         <div className="post">
           <h3> Currently Working as : FrontEnd Developer</h3>
