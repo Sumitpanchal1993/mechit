@@ -20,10 +20,6 @@ const month = [
 ];
 
 function ExperienceCard(props) {
-<<<<<<< HEAD
-=======
-  console.log(typeof props.companyJoin);
->>>>>>> 3118bb4595b17fc1185e600d7b083c06ac11b6ef
   return (
     <>
       <div className="exp_card">
@@ -37,11 +33,7 @@ function ExperienceCard(props) {
         <div className="joining">
           <h3>
             From :
-<<<<<<< HEAD
             {month[props.companyJoin.getMonth() + 1] +
-=======
-            {month[props.companyJoin.getMonth()] +
->>>>>>> 3118bb4595b17fc1185e600d7b083c06ac11b6ef
               " " +
               props.companyJoin.getFullYear() +
               " "}
@@ -52,11 +44,7 @@ function ExperienceCard(props) {
           <div className="joining">
             <h3>
               Till :
-<<<<<<< HEAD
               {month[props.companyEnd.getMonth() + 1] +
-=======
-              {month[props.companyEnd.getMonth()] +
->>>>>>> 3118bb4595b17fc1185e600d7b083c06ac11b6ef
                 " " +
                 props.companyEnd.getFullYear() +
                 " "}
