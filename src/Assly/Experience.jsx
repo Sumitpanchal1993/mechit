@@ -12,6 +12,8 @@ function Experience() {
               companyName={item.comp_name}
               companyDetail={item.about}
               companyJoin={item.join}
+              companyEnd={item.end}
+              companyPost={item.post}
             />
           );
         })}
