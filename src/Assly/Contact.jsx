@@ -11,11 +11,11 @@ function Contact() {
       <div className="cont_data">
         {/* <span class="material-symbols-outlined">phone_iphone</span> */}
         <p>
-          <span class="material-symbols-outlined">call</span>
+          <span className="material-symbols-outlined">call</span>
           Mobile No.: <a href="tel:8349102532">+91 8349102532</a>
         </p>
         <p>
-          <span class="material-symbols-outlined">call</span>
+          <span className="material-symbols-outlined">call</span>
           Alt. Mobile: <a href="tel:8349102532">+91 7828314018</a>
         </p>
       </div>
@@ -23,18 +23,18 @@ function Contact() {
       <div className="cont_data">
         {/* <span class="material-symbols-outlined">mail</span> */}
         <p>
-          <span class="material-symbols-outlined">mail</span>
-          Email ID:{" "}
+          <span className="material-symbols-outlined">mail</span>
+          Email ID:
           <a href="mailto: sumitpanchal08@gmail.com ">
-            sumitpanchal08@gmail.com{" "}
+            sumitpanchal08@gmail.com
           </a>
         </p>
         <p>
-          <span class="material-symbols-outlined">mail</span>
+          <span className="material-symbols-outlined">mail</span>
           Alternate Email:
           <a href="mailto: sumitpanchal990@gmail.com ">
-            sumitpanchal990@gmail.com{" "}
-          </a>{" "}
+            sumitpanchal990@gmail.com
+          </a>
         </p>
       </div>
 

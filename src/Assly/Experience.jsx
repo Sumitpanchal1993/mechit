@@ -10,6 +10,7 @@ function Experience() {
         {exp_detail.map((item, index) => {
           return (
             <ExperienceCard
+              key={index}
               companyName={item.comp_name}
               companyDetail={item.about}
               companyJoin={item.join}
