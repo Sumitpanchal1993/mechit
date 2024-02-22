@@ -28,7 +28,9 @@ function Home() {
           </div>
 
           <div className="exp_btn">
-            <button onClick={aboutMe}>Explore About Me</button>
+            <button onClick={aboutMe}>
+              <span>Explore About Me</span>
+            </button>
             <div className="explore_menu">
               <Link to="/qualification">Qualification</Link>
               <Link to="/experience">Experience</Link>

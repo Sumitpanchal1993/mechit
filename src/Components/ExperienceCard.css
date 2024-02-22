@@ -1,11 +1,18 @@
 .exp_card{
   box-sizing: border-box;
-  box-shadow: 0 0 10px white; 
   margin: 1rem;
   padding: 1.5rem;
   border-radius: 2rem;
   background: rgba(0, 0, 0, 0.5);
-  max-width: 40rem;
+ 
+}
+
+.exp_card:hover{
+  box-shadow: 0 0 10px white;
+}
+
+.exp_card:nth-last-child(){
+  margin-bottom: 1rem;
 }
 
 .title{
@@ -14,4 +21,8 @@
 
 .comp_detail{
   margin: 1rem 0;
+}
+
+.joining{
+  margin: 0.5rem 0;
 }

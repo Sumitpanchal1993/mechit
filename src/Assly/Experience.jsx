@@ -1,6 +1,7 @@
 import React from "react";
 import ExperienceCard from "../Components/ExperienceCard";
 import exp_detail from "../Static Data/Exp";
+import "./Experience.css";
 
 function Experience() {
   return (
@@ -12,6 +13,8 @@ function Experience() {
               companyName={item.comp_name}
               companyDetail={item.about}
               companyJoin={item.join}
+              companyEnd={item.end}
+              companyPost={item.post}
             />
           );
         })}

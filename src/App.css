@@ -2,16 +2,24 @@
 /* Button Css */
 button {
     border-radius: 2rem;
-    background-color: #8b550e;
+    background-color: #084dce;
     border: none;
     color: #FFFFFF;
     text-align: center;
     font-size: 1rem;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     min-width: 8rem;
     transition: all 0.3s;
     cursor: pointer;
     margin: 5px;
+    box-shadow: 3px 3px 4px black
+
+  }
+
+  button:hover{
+    background: linear-gradient(var(--darkblue), var(--purple));
+    box-shadow: 2px 2px 3px rgb(88, 88, 88)
+    inset;
   }
   
   button span {
