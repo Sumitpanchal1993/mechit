@@ -5,7 +5,7 @@ const exp_detail = [
     location: "Pune Maharashtra",
     about:
       " Techium InfoTech is a leading software company providing the services of E-Commerce Development, Custom Web Development, Software Maintenance, Software Enhancement, Software Testing and various IT related supports and solution provider",
-    join: new Date("2021-6-15"),
+    join: new Date("2021-11-22"),
     end: null,
     post: "Front End Developer",
     role: "Create the Front end UI",
