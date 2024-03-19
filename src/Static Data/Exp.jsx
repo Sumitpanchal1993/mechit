@@ -5,8 +5,8 @@ const exp_detail = [
     location: "Pune Maharashtra",
     about:
       " Techium InfoTech is a leading software company providing the services of E-Commerce Development, Custom Web Development, Software Maintenance, Software Enhancement, Software Testing and various IT related supports and solution provider",
-    join: new Date("2021-11-22"),
-    end: null,
+    join: new Date("2021-08-22"),
+    end: new Date("2023-07-01"),
     post: "Front End Developer",
     role: "Create the Front end UI",
   },
@@ -16,13 +16,24 @@ const exp_detail = [
     location: "Dewas Madhya Pradesh",
     about:
       "Gear Mfg CompanyGajra Gears is a gear manufacturing company which deals with manufacturing of Transmission parts. Serving to Replacement as well as O.E. market of leading Automobile and agricultural equipment’s producer such as GKN, Krone, TAFE, TMTL, Force Motors B.Auto, Ashok Leyland, TATA and many more.",
-    join: new Date("2019-3-15"),
-    end: new Date("2020-8-15"),
+    join: new Date("2024-03-15"),
+    end: null,
+    post: "Zonal Sales Manager",
+    role: "SAles",
+  },
+  {
+    id: 3,
+    comp_name: "Gajra Gears Pvt. Ltd",
+    location: "Dewas Madhya Pradesh",
+    about:
+      "Gear Mfg CompanyGajra Gears is a gear manufacturing company which deals with manufacturing of Transmission parts. Serving to Replacement as well as O.E. market of leading Automobile and agricultural equipment’s producer such as GKN, Krone, TAFE, TMTL, Force Motors B.Auto, Ashok Leyland, TATA and many more.",
+    join: new Date("2019-03-15"),
+    end: new Date("2024-03-15"),
     post: "Assistant Manager",
     role: "New Product Development & PPAP Documentaion",
   },
   {
-    id: 3,
+    id: 4,
     comp_name: "Volvo Eicher Commercial Vehicle",
     location: "Dewas Madhya Pradesh",
     about:
@@ -33,7 +44,7 @@ const exp_detail = [
     role: "Senior Engineer",
   },
   {
-    id: 4,
+    id: 5,
     comp_name: "Gajra Differential Gears Pvt. Ltd",
     location: "Dewas Madhya Pradesh",
     about: `It’s a gear manufacturing company with wide variety of Differential gears, serving to Replacement as well as O.E. market of leading automobile and agricultural equipment’s Producer Such as GKN, Krone, TAFE, TMTL, B.Auto, Ashok Leyland, TATA etc.`,
