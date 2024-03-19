@@ -5,7 +5,7 @@ import project from "../Static Data/Project";
 function Projects() {
   return (
     <>
-      <div className="project">
+      <div className="projectBase">
         <div className="project_list">
           {project.map((item, index) => {
             return <ProjectCard key={index} data={item} />;

@@ -1,8 +1,7 @@
-div.project{
 
-}
 
 .project_list{ 
+    height: 100vh;
     background-color: #00000060;
     color: white;  
     display: flex;

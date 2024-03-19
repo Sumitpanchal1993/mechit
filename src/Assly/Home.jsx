@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import MyButton from '../Components/MyButton'
 import "../Assly/Home.css";
 import Poster from "../Media/Poster3.png";
 
@@ -28,7 +27,7 @@ function Home() {
           </div>
 
           <div className="exp_btn">
-            <button onClick={aboutMe}>
+            <button className="mybtn" onClick={aboutMe}>
               <span>Explore About Me</span>
             </button>
             <div className="explore_menu">

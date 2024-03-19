@@ -39,7 +39,7 @@ function Contact() {
       </div>
 
       <a href="Resume Sumit Panchal.pdf" download={"Resume Sumit.pdf"}>
-        <button>
+        <button className="mybtn">
           <span> Download Resume</span>
         </button>
       </a>

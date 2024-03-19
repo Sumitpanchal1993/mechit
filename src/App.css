@@ -1,6 +1,6 @@
 
 /* Button Css */
-button {
+.mybtn {
     border-radius: 2rem;
     background-color: #084dce;
     border: none;
@@ -16,20 +16,20 @@ button {
 
   }
 
-  button:hover{
+  .mybtn:hover{
     background: linear-gradient(var(--darkblue), var(--purple));
     box-shadow: 2px 2px 3px rgb(88, 88, 88)
     inset;
   }
   
-  button span {
+  .mybtn span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
   
- button span:after {
+ .mybtn span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -38,11 +38,11 @@ button {
     transition: 0.5s;
   }
   
-  button:hover span {
+  .mybtn:hover span {
     padding-right: 25px;
   }
   
- button:hover span:after {
+ .mybtn:hover span:after {
     opacity: 1;
     right: 0;
   }

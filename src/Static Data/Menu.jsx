@@ -23,12 +23,12 @@ export const menu =[
         link: '/project',
         icon: <span className="material-symbols-outlined">file_present</span>
     },
-    // {
-    //     id: 4,
-    //     title: 'Contact Me',
-    //     link: '/contact',
-    //     icon: <span className="material-symbols-outlined">contact_mail</span>
-    // },
+    {
+        id: 4,
+        title: 'Small Projects',
+        link: '/smallprojects',
+        icon: <span className="material-symbols-outlined">tactic</span>
+    },
     {
         id: 5,
         title: 'Hire Me !',

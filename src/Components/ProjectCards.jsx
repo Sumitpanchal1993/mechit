@@ -27,7 +27,7 @@ function Cards(props) {
           </ul>
         </div>
         <div>
-          <button className="viewbtn">
+          <button className="viewbtn mybtn">
             <a href={props.data.link} target="_blank">
               <span>View</span>
             </a>

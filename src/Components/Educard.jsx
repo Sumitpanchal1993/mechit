@@ -35,7 +35,7 @@ function Educard(props) {
         </div>
         <div>
           <a href={props.link}>
-            <button>
+            <button className="mybtn">
               <span>Know More</span>
             </button>
           </a>
