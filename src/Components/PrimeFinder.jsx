@@ -1,9 +1,9 @@
 import React, { useState } from "react";
+import './PrimeFinder.css'
 
 function PrimeFinder() {
   const [result, setResult] = useState();
   const [divideBy, setDivideBy] = useState();
-  let arr = [2, 3, 4, 4, 4, 5, 65, 5, 5]
 
   function primeCheck() {
     let userValue = document.getElementById("input");
@@ -24,7 +24,8 @@ function PrimeFinder() {
   }
 
   return (
-    <div>
+
+    <div className="primeBase">
       <div>
         <label htmlFor="userInput">Enter the Number To check for Prime</label>
         <input
@@ -37,9 +38,7 @@ function PrimeFinder() {
       <div>
         <button className ='mybtn' onClick={primeCheck}> <span>Check</span></button>
       </div>
-      <div>
-        <p>{arr}</p>
-      </div>
+      
       <div>
         {result ? (
           <p id="result">The Number is Prime</p>

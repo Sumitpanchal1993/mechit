@@ -2,12 +2,13 @@ import React, { useEffect } from "react";
 import "./Calculator.css";
 
 function Calculator() {
+
   let calcBtn = document.querySelectorAll("button");
   calcBtn = Array.from(calcBtn);
   useEffect(() => {
     //Variables
     let display = document.getElementById("screen");
-    let output = "";
+    let output = '';
 
     calcBtn.forEach((item) => {
       item.addEventListener("click", (e) => {   
