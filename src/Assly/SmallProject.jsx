@@ -8,8 +8,10 @@ function SmallProject() {
     <>
       <div className="smallProjectBase">
         <div className="smallproject_list">
+        <div>
           <Calculator />
-          {/* <PrimeFinder /> */}
+        </div>
+          <PrimeFinder />
         </div>
       </div>
     </>

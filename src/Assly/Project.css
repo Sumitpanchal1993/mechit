@@ -1,8 +1,10 @@
-
+.projectBase{
+    height: 100vh;  
+  
+}   
 
 .project_list{ 
-    height: 100vh;
-    background-color: #00000060;
+    /* background-color: #00000060; */
     color: white;  
     display: flex;
     align-items: center;
@@ -12,14 +14,13 @@
 
 
 @media screen and (max-width:768px) {
-    div.project{
-        background-size: cover;
-        
+    .projectBase{
+        background-size: cover;  
       
-    }
+    }   
     
-    
-    div.project_list{
+    .project_list{
+        /* margin: 4rem 0; */
         display: flex;
         flex-direction: column;
         align-items: center;
