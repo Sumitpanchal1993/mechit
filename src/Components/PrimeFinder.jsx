@@ -26,8 +26,11 @@ function PrimeFinder() {
   return (
 
     <div className="primeBase">
-      <div>
-        <label htmlFor="userInput">Enter the Number To check for Prime</label>
+      <div className="title">
+        <h2>Prime Number Checker</h2>
+      </div>
+      <div className="primeInput">
+        <label htmlFor="userInput">Enter the Number To check</label>
         <input
           type="number"
           name="userInput"
