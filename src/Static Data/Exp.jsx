@@ -19,7 +19,7 @@ const exp_detail = [
     join: new Date("2024-03-15"),
     end: null,
     post: "Zonal Sales Manager",
-    role: "SAles",
+    role: "Sales",
   },
   {
     id: 3,

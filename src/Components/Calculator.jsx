@@ -1,41 +1,39 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./Calculator.css";
 
 function Calculator() {
-
-  let calcBtn = document.querySelectorAll("button");
-  calcBtn = Array.from(calcBtn);
   useEffect(() => {
     //Variables
+    let calcBtn = document.querySelectorAll("button");
+    calcBtn = Array.from(calcBtn);  
     let display = document.getElementById("screen");
-    let output = '';
+    let output = "";
 
-    calcBtn.forEach((item) => {
-      item.addEventListener("click", (e) => {   
-        if(e.target.innerHTML === '='){
-            output = eval(output)
-            display.value = output
-        }else if(e.target.innerHTML === 'AC'){
-            output = ''
-            display.value = output
-        }   
-        else if (e.target.innerHTML === '%') {
-            output = output * 0.01
-            display.value = output
+    calcBtn.forEach(
+      (item) => {
+        item.addEventListener("click", (e) => {
+          if (e.target.innerHTML === "=") {
+            output = eval(output);
+            display.value = output;
+          } else if (e.target.innerHTML === "AC") {
+            output = "";
+            display.value = output;
+          } else if (e.target.innerHTML === "%") {
+            output = output * 0.01;
+            display.value = output;
+          } else if (e.target.innerHTML === "Del") {
+            output = output.slice(0, output.length - 1);
+            display.value = output;
+          } else {
+            output += e.target.innerHTML;
+            display.value = output;
           }
-        else if (e.target.innerHTML === 'Del') {
-            output = output.slice(0, output.length - 1)
-            display.value = output
-          }     
-        else{
-            output += e.target.innerHTML
-            display.value = output
-        } 
-       
-
-      });
-    }, []);
+        });
+      },
+      [output]
+    );
   });
+  
 
   return (
     <>
@@ -44,7 +42,12 @@ function Calculator() {
           <h3>Calculator</h3>
         </div>
         <div className="screen">
-          <input type="text" name="display" id="screen" value={''}  onChange={()=>{}}/>
+          <input
+            type="text"
+            name="display"
+            id="screen"
+            readOnly={true}
+          />
         </div>
         <div className="keybord">
           <div className="keyRow">
@@ -86,7 +89,6 @@ function Calculator() {
           <li>For power press * twice</li>
         </ul>
       </div>
-      
     </>
   );
 }
