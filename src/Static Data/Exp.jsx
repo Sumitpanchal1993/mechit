@@ -5,8 +5,8 @@ const exp_detail = [
     location: "Pune Maharashtra",
     about:
       " Techium InfoTech is a leading software company providing the services of E-Commerce Development, Custom Web Development, Software Maintenance, Software Enhancement, Software Testing and various IT related supports and solution provider",
-    join: new Date("2021-08-22"),
-    end: new Date("2023-07-01"),
+    join: new Date("2020-01-27"),
+    end: new Date("2022-10-01"),
     post: "Front End Developer",
     role: "Create the Front end UI",
   },
@@ -16,10 +16,10 @@ const exp_detail = [
     location: "Dewas Madhya Pradesh",
     about:
       "Gear Mfg CompanyGajra Gears is a gear manufacturing company which deals with manufacturing of Transmission parts. Serving to Replacement as well as O.E. market of leading Automobile and agricultural equipment’s producer such as GKN, Krone, TAFE, TMTL, Force Motors B.Auto, Ashok Leyland, TATA and many more.",
-    join: new Date("2024-03-15"),
+    join: new Date("2023-03-15"),
     end: null,
-    post: "Zonal Sales Manager",
-    role: "Sales",
+    post: "IT Department",
+    role: "IT ",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const exp_detail = [
     about:
       "Gear Mfg CompanyGajra Gears is a gear manufacturing company which deals with manufacturing of Transmission parts. Serving to Replacement as well as O.E. market of leading Automobile and agricultural equipment’s producer such as GKN, Krone, TAFE, TMTL, Force Motors B.Auto, Ashok Leyland, TATA and many more.",
     join: new Date("2019-03-15"),
-    end: new Date("2024-03-15"),
+    end: new Date("2023-03-15"),
     post: "Assistant Manager",
     role: "New Product Development & PPAP Documentaion",
   },
