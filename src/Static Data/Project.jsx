@@ -25,11 +25,11 @@ const project = [
   },
   {
     id: 4,
-    title: "A.T. Inks",
+    title: "Ecommerce App",
     detail:
       "The website was developed as a freelancer project. The client was a Gauge & Fixture manufacturer providing the services in the mechanical Industries",
     tech: ["ReactJs", "JavaScript", "HTML", "CSS"],
-    link: "https://ulred-mu.vercel.app/",
+    link: "https://ecommerce-app-eight-theta.vercel.app",
   },
 ];
 
