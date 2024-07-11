@@ -1,6 +1,6 @@
 import React from "react";
 import Heroimg from "../Media/Heros Image.png";
-import Button from "./Sub Components/Button";
+
 
 import "./Heros.css";
 
