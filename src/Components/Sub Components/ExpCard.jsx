@@ -12,14 +12,15 @@ function ExpCard({item}) {
             </div>
             <div className="exp_detail">
                 <div className="comp_Name">
-                    <h2>{item.comp_name}</h2>
+                    <h2>{item.title}</h2>
+                    <p>{item.co_name}</p>
                     <p>{item.location}</p>
                 </div>
                 <div className="describe">
-                    <p>{item.about}</p>
+                    <p>{item.splz}</p>
                 </div>
                 <div className="describe">
-                    <p>{item.post}</p>
+                    <p>{item.percent}</p>
                 </div>
                 <div className="describe">
                     <p>{item.role}</p>

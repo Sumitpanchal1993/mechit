@@ -3,7 +3,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="aboutBase">
+    <div className="aboutBase" id="About">
       <h2>About :</h2>
       <p>
         "I am a seasoned React JS developer with <strong>3 years</strong> of

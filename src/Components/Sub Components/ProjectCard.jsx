@@ -4,7 +4,7 @@ import "./ProjectCard.css";
 
 
 function ProjectCard({item}) {
-  const [hide, setHide] = useState(true)
+  const [hide, setHide] = useState(false)
 
   const handlehover =()=>{
     setHide(true)
@@ -32,11 +32,10 @@ export default ProjectCard;
 function OverlapCard ({item}){
   return(
     <div className="overlapCard flex">
-          <h2>{item.project}</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, dolore.</p>
+          <h2>{item.title}</h2>
+          <p>{item.detail} Technology Used : {item.tech.join(', ')}</p>
           <a href={item.link}>
           <button>Visit App</button>
-
           </a>
         </div>
     
