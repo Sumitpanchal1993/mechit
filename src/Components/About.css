@@ -1,0 +1,24 @@
+.aboutBase{
+    margin: 2rem 5rem;
+}
+
+.aboutBase p {
+    margin: 1rem ;
+    font-size: large;
+}
+
+
+.aboutBase strong{
+    color: orange;
+    font-size: larger;
+}
+
+
+@media screen and (max-width: 786px){
+    .aboutBase{
+        margin: 1rem;
+    }
+    
+
+    
+}

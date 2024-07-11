@@ -1,0 +1,12 @@
+.projectBase{
+    margin-top: 1rem;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project_list{
+    margin-top: 2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}

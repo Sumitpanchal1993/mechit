@@ -1,0 +1,51 @@
+.projectCardBase{
+    border: 1px solid orange;
+    overflow: hidden;
+    margin: 0.5rem; 
+    width: 30rem;
+    height: 15rem;
+    position: relative;
+    border-radius: 1rem;
+}
+
+.overlapCard{    
+    background: orange;
+    padding: 1rem;
+    justify-content: center;
+    position: absolute;
+    width: 30rem;
+    height: 15rem;
+    border-radius: 1rem;
+    /* visibility: hidden; */
+}
+
+/* .overlapCard:hover{
+     visibility: hidden;
+}   */
+
+
+.overlapCard button{
+    background: red ;
+    font-size: large;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.overlapCard button:hover{
+    background: green ;
+}
+
+
+
+.projectCardBase img{
+    width: 100%;
+}
+
+
+@media screen and (max-width:786px) {
+    .projectCardBase, .overlapCard {
+        width: 25rem;
+        height: 13rem;
+    }
+}

@@ -1,0 +1,24 @@
+.skillsBase{
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+
+.skillsBase h2{
+    margin-top: 1rem;
+}
+
+
+
+
+@media screen and (max-width: 786px) {
+    .skillsBase{
+        justify-content: space-evenly;
+
+    }
+  
+
+}

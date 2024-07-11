@@ -1,27 +1,31 @@
-:root {
-    --purple: #673de6;
-    --bgcol: #e5e5e5;
-    --mutetext: #727586;
-    --newred: #fc5185;
-    --myorange: #FCA311;
-    --teal: #218380;
-    --darkblue: #14213d;
+:root{
+  --text:white;
+  --oddbg: grey;
+  --evenbg: black;
+  --orange:orange;
+
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif, Arial, Helvetica;
-    box-sizing: border-box;
-}
 
 body {
-    background-image: url(../src/Media/BG_Univ.jpg);
-    color: white; 
-    background-size: cover;
-    background-position: center;
+  font-family: 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--evenbg);
 }
 
-#root{
-    background: rgba(0, 0, 0, 0.5);
+
+
+button{
+  cursor: pointer;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text);
+}
+
+

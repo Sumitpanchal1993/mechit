@@ -1,0 +1,28 @@
+.skillCardBase{
+    flex-direction: column;
+    margin: 1rem;
+    border:  1px solid orange;
+    border-radius: 1rem;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    width: 160px;
+    gap: 8px;
+    min-height: 16rem;
+}
+
+.skillCardBase:nth-child(even){
+    border:  1px solid green;
+}
+
+.skillCardBase:hover{
+    box-shadow: 0 0 10px blue;
+    background: orange;
+}
+
+.skillCardBase img{
+    /* border-radius: 50rem; */
+    width: 100%;
+    padding: 5px;
+
+}

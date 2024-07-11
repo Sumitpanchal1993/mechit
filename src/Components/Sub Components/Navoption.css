@@ -1,0 +1,16 @@
+.dummyBtn{
+    position: fixed;
+    right: 10px;
+}
+.dropdown{
+    display: none;
+    background: grey;
+    position: relative;
+}
+
+.dropdown ul{
+    position: absolute;
+    right: 0;
+    top: 30px;
+    list-style: none;
+}

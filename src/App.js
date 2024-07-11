@@ -1,31 +1,41 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "./Components/Navbar";
-import Home from "./Assly/Home";
-import Projects from "./Assly/Projects";
-import Contact from "./Assly/Contact";
-import Experience from "./Assly/Experience";
-import Qualification from "./Assly/Qualification";
-import SmallProject from "./Assly/SmallProject";
+import './App.css';
+import Navbar from './Components/Navbar';
+import Heros from './Components/Heros';
+import Projects from './Components/Projects';
+import Experience from './Components/Experience';
+import Specialty from './Components/Specialty';
+import Contact from './Components/Contact';
+import Myskills from './Components/Myskills';
+import About from './Components/About';
 
 
 function App() {
   return (
     <>
-      <Router>
-        <div className="container">
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />}></Route>
-            <Route path="/project" element={<Projects />}></Route>
-            <Route path="/contact" element={<Contact />}></Route>
-            <Route path="/experience" element={<Experience />}></Route>
-            <Route path="/qualification" element={<Qualification />}></Route>
-            <Route path="/smallprojects" element={<SmallProject />}></Route>
-          </Routes>
-        </div>
-      </Router>
+      <div>
+        <Navbar/>
+      </div>
+      <div>
+        <Heros/>
+      </div>
+      <div>
+      <About/>
+      </div>
+      <div>
+      <Myskills/>
+      </div>
+      <div>
+      <Projects/>
+      </div>
+      <div>
+      <Experience/>
+      </div>
+      <div>
+      <Specialty/>
+      </div>
+      <div>
+      <Contact/>
+      </div>
     </>
   );
 }

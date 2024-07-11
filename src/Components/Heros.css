@@ -1,0 +1,40 @@
+.heroBase{
+    margin-top: 8%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.intro p{
+    font-size: 40px;
+}
+
+
+
+.intro strong{
+    color: orange;
+    font-size: 80px;
+}
+
+.heroimage{
+    border-radius: 50rem;
+    overflow: hidden;
+    background-color: orange;
+
+}
+
+
+@media screen and (max-width: 786px) {
+    .heroBase{
+        margin: 5rem 10px 10px 10px;
+    }
+
+    .intro p{
+        margin-left: 10px;
+        font-size: 40px;
+    }
+
+    .heroimage img{
+        width: 25rem;
+    }
+    
+}

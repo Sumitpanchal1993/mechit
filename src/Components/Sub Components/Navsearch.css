@@ -1,0 +1,22 @@
+.search{
+    justify-content: center;
+    margin-right: 20px;
+    position: relative;
+}
+
+.search input{
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+    padding: 10px 50px 10px 15px;
+    height: 30px;
+    color: black;
+    font-size: large;
+    max-width: 12rem;
+   
+}
+
+.search img{
+   position: absolute;
+   right: 8px;
+}
