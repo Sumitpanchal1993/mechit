@@ -6,6 +6,11 @@
     padding: 1rem;
 }
 
+.skill_list{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
 .skillsBase h2{
     margin-top: 1rem;
@@ -16,7 +21,7 @@
 
 @media screen and (max-width: 786px) {
     .skillsBase{
-        justify-content: space-evenly;
+        gap: 0.5rem;
 
     }
   

@@ -6,6 +6,7 @@
     height: 15rem;
     position: relative;
     border-radius: 1rem;
+    transition: all 1s ease-in-out;
 }
 
 .overlapCard{    
@@ -17,6 +18,7 @@
     height: 15rem;
     border-radius: 1rem;
     /* visibility: hidden; */
+    transition: all 1s ease-in-out;
 }
 
 /* .overlapCard:hover{
@@ -45,7 +47,7 @@
 
 @media screen and (max-width:786px) {
     .projectCardBase, .overlapCard {
-        width: 25rem;
+        width: 23rem;
         height: 13rem;
     }
 }

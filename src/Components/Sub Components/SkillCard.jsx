@@ -1,5 +1,5 @@
 import React from 'react'
-import JS from '../../Media/JS.svg'
+
 import './SkillCard.css'
 
 function SkillCard({item}) {
@@ -12,8 +12,8 @@ function SkillCard({item}) {
         <div>
           <h3>{item.language}</h3>
         </div>
-        <div>
-          <label htmlFor="">Expertise</label>
+        <div >
+          {/* <label htmlFor="">Expertise</label> */}
           <input type="range" name="" id="" value={item.level} readOnly/>
         </div>
       </div>

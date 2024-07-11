@@ -24,7 +24,7 @@ function Myskills() {
         <div>
           <h2>My Skills :</h2>
         </div>
-        <div className="flex">
+        <div className="skill_list flex">
           {skills.map((item) => {
             return <SkillCard key={item.id} item={item} />;
           })}

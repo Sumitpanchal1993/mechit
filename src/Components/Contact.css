@@ -1,0 +1,31 @@
+.contactBase{
+    text-align:center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contactTile{
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    padding: 8px 20px;
+    border-radius: 0.5rem;
+    margin: 0.5rem 1rem;
+    background: rgb(80, 80, 80);
+
+}
+
+.contactTile a{
+     text-decoration: none;
+}
+
+@media screen and (max-width: 786px) {
+    .contactTile{
+        width: 100%;
+    }
+    
+}
+

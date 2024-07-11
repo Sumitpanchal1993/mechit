@@ -1,0 +1,49 @@
+.expCardBase {
+  position: relative;
+  margin: 1rem;
+}
+
+.year {
+  background-color: orange;
+  border-radius: 0.5rem;
+  justify-content: center;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 60px;
+  height: 36px;
+}
+
+.arrow {
+  position: absolute;
+  top: 8px;
+  right: -20px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent; /* Adjust size as needed */
+  border-bottom: 10px solid transparent; /* Adjust size as needed */
+  border-left: 20px solid orange; /* Adjust size and color as needed */
+}
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  box-shadow: 0 0 20px 10px yellow;
+  background-color: orange;
+  position: relative;
+  top: 0px;
+  left: 45px;
+  filter: blur(2px);
+}
+
+.exp_detail {
+  border-left: 4px solid white;
+  margin-top: 20px;
+  margin-left: 6rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.comp_Name h2, p {
+    margin: 10px;
+}
