@@ -12,7 +12,7 @@ function ExpCard({item}) {
             </div>
             <div className="exp_detail">
                 <div className="comp_Name">
-                    <h2>{item.title}</h2>
+                    <h3>{item.title}</h3>
                     <p>{item.co_name}</p>
                     <p>{item.location}</p>
                 </div>

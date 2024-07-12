@@ -37,7 +37,7 @@ const edu_data = [
     location: "Dewas M.P.",
     splz: "Mathematics",
     year: 2011,
-    percent: 80.8,
+    percent: '80.80%',
     link: "12.jpg",
   },
   {
@@ -47,7 +47,7 @@ const edu_data = [
     location: "Dewas M.P.",
     splz: "All Subjects",
     year: 2009,
-    percent: 81.83,
+    percent: '81.83%',
     link: "10.jpg",
   },
 
