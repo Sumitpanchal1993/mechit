@@ -23,7 +23,7 @@ const exp_detail = [
     role: "IT Problem Solving and Maintaining ",
   },
   {
-    id: 1,
+    id: 3,
     title: "Techium Infotech ",
     location: "Pune, Maharashtra",
     splz:" Techium InfoTech is a leading software company providing the services of E-Commerce Development, Custom Web Development, Software Maintenance, Software Enhancement, Software Testing and various IT related supports and solution provider",

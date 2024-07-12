@@ -32,9 +32,9 @@ export default ProjectCard;
 function OverlapCard ({item}){
   return(
     <div className="overlapCard flex">
-          <h2>{item.title}</h2>
-          <p>{item.detail} Technology Used : {item.tech.join(', ')}</p>
-          <a href={item.link}>
+          <h3>{item.title}</h3>
+            <p>{item.detail} Technology Used : {item.tech.join(', ')}</p>
+            <a href={item.link}>
           <button>Visit App</button>
           </a>
         </div>

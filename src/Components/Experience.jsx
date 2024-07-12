@@ -11,7 +11,7 @@ export default function Experience() {
       <div className="expBase flex">
         <h2>Experience</h2>
         {exp_detail.map((item) => {
-          return <ExpCard  item ={item} />;
+          return <ExpCard  key={item.id} item ={item} />;
         })}
       </div>
     </>

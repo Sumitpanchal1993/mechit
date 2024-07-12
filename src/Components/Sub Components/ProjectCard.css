@@ -50,4 +50,8 @@
         width: 23rem;
         height: 13rem;
     }
+
+    .overlapCard p{
+        font-size: small;
+    }
 }

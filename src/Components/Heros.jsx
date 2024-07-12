@@ -5,7 +5,7 @@ import "./Heros.css";
 function Heros() {
   return (
     <>
-      <div className="heroBase flex">
+      <div className="heroBase flex" id='Home'>
         <div className="intro">
         <p>
           I'm <strong>Sumit Panchal</strong>
