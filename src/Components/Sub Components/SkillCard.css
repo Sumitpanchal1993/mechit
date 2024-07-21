@@ -28,8 +28,18 @@
 }
 
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 786px){
    .skillCardBase{
     margin: 5px;
+   }
+}
+@media screen and (max-width: 396px){
+   .skillCardBase{
+    width: 9rem;
+    margin: 5px;
+   }
+
+   .skillCardBase img{
+    width: 120px;
    }
 }

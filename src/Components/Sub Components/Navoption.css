@@ -1,16 +1,29 @@
+
 .dummyBtn{
-    position: fixed;
-    right: 10px;
+    border: none;
+    background: transparent;
 }
+
 .dropdown{
+    box-shadow: 0 0 10px white ;
     display: none;
-    background: grey;
-    position: relative;
+    backdrop-filter: blur(8px);
+    position: absolute;
+    top: 70px;
+    right: 1%;
+    padding: 15px;
+    border-radius: 0 0 10px 10px; 
+    border-image: liniar-gradient(white, orange);
+    transition: display 2s, height 2s, transform 2s;
 }
 
 .dropdown ul{
-    position: absolute;
-    right: 0;
-    top: 30px;
     list-style: none;
+}
+
+.dropdown ul li {
+    padding: 10px;
+}
+.dropdown ul li a {
+    text-decoration: none;
 }
