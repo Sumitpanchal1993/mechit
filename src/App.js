@@ -7,8 +7,7 @@ import Contact from "./Components/Contact";
 import Myskills from "./Components/Myskills";
 import About from "./Components/About";
 import Education from "./Components/Education";
-import { useState } from "react";
-
+import SmallApps from "./Components/Small_Apps";
 
 
 function App() {
@@ -21,6 +20,7 @@ function App() {
       <About/>
       <Myskills />
       <Projects />
+      <SmallApps />
       <Education/>
       {/* <Experience /> */}
       <Contact />

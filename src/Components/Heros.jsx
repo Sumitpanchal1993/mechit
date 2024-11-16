@@ -1,13 +1,13 @@
 import React from "react";
 import Heroimg from "../Media/Heros Image.png";
 import "./Heros.css";
-import  Resume from '../Media/Sumit_Panchal_ReactJS_Developer_Immediate_Joiner.pdf'
+import  Resume from '../Media/Sumit_Panchal_3_Years_ReactJS_Developer.pdf'
 
 const onButtonClick = () => {
   const pdfUrl = Resume;
   const link = document.createElement("a");
   link.href = pdfUrl;
-  link.download = "Sumit_Panchal_ReactJS_Developer_Immediate_Joiner.pdf"; // specifying  filename
+  link.download = "Sumit_Panchal_ReactJS_Developer.pdf"; // specifying  filename
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
