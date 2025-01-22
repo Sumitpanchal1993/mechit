@@ -20,7 +20,7 @@ function ExpCard({item}) {
                     <p>{item.splz}</p>
                 </div>
                 <div className="describe">
-                    <p>{item.percent}</p>
+                    <p>{item.designation}</p>
                 </div>
                 <div className="describe">
                     <p>{item.role}</p>
